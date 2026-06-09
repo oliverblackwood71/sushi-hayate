@@ -4,7 +4,7 @@ const galleryImages = [
   { src: "/images/gallery-03.png", alt: "まぐろの握り" },
   { src: "/images/gallery-04.png", alt: "茶碗蒸し" },
   { src: "/images/gallery-05.png", alt: "島根の漁港" },
-  { src: "/images/menu-omakase.png", alt: "おまかせにぎり" },
+  { src: "/images/gallery-06.png", alt: "島根の漁港" },
 ];
 
 export default function Gallery() {
