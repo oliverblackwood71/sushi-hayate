@@ -12,7 +12,7 @@ const galleryImages = [
     alt: "旬の握り",
   },
   {
-    src: "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
     alt: "にぎり盛り合わせ",
   },
   {

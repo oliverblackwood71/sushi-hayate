@@ -6,7 +6,7 @@ const menuItems = [
       "旬の握り10貫＋一品料理。大将おすすめの構成でお楽しみください。",
     price: "¥15,000〜",
     image:
-      "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80",
+      "https://images.unsplash.com/photo-1562802378-063ec186a863?w=800&q=80",
   },
   {
     id: "nigiri",
