@@ -5,8 +5,7 @@ const menuItems = [
     description:
       "旬の握り10貫＋一品料理。大将おすすめの構成でお楽しみください。",
     price: "¥15,000〜",
-    image:
-      "https://images.unsplash.com/photo-1562802378-063ec186a863?w=800&q=80",
+    image: "/images/menu-omakase.png",
   },
   {
     id: "nigiri",
@@ -14,8 +13,7 @@ const menuItems = [
     description:
       "その日入荷した魚介からお好みで。大トロ・のどぐろ・いくらなど。",
     price: "¥500〜/貫",
-    image:
-      "https://images.unsplash.com/photo-1563612116625-3012372fccce?w=800&q=80",
+    image: "/images/menu-nigiri.png",
   },
   {
     id: "moriwase",
@@ -23,8 +21,7 @@ const menuItems = [
     description:
       "刺身と握りを組み合わせた贅沢な盛り合わせ。2名様より。",
     price: "¥8,000〜/人",
-    image:
-      "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80",
+    image: "/images/menu-moriwase.png",
   },
 ];
 

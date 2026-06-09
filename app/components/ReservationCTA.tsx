@@ -8,8 +8,7 @@ export default function ReservationCTA() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80')",
+          backgroundImage: "url('/images/reservation-bg.png')",
         }}
       />
       <div className="absolute inset-0 bg-[#0c0b09]/82" />

@@ -7,8 +7,7 @@ export default function Concept() {
           <div
             className="relative aspect-[4/3] overflow-hidden"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=1200&q=80')",
+              backgroundImage: "url('/images/concept.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

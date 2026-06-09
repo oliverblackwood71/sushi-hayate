@@ -1,28 +1,10 @@
 const galleryImages = [
-  {
-    src: "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&q=80",
-    alt: "職人の手元",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
-    alt: "店内カウンター",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&q=80",
-    alt: "旬の握り",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-    alt: "にぎり盛り合わせ",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
-    alt: "一品料理",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1563612116625-3012372fccce?w=800&q=80",
-    alt: "季節の味",
-  },
+  { src: "/images/gallery-01.png", alt: "職人の手元" },
+  { src: "/images/gallery-02.png", alt: "にぎり盛り合わせ" },
+  { src: "/images/gallery-03.png", alt: "まぐろの握り" },
+  { src: "/images/gallery-04.png", alt: "茶碗蒸し" },
+  { src: "/images/gallery-05.png", alt: "島根の漁港" },
+  { src: "/images/menu-omakase.png", alt: "おまかせにぎり" },
 ];
 
 export default function Gallery() {
