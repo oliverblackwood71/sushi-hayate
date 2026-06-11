@@ -9,6 +9,8 @@ const navLinks = [
   { href: "#reservation", label: "ご予約" },
 ];
 
+const memberLink = { href: "/mypage", label: "会員証" };
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,6 +46,12 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <a
+            href={memberLink.href}
+            className="border border-[#c9a84c]/40 text-[#c9a84c] text-xs tracking-widest px-4 py-1.5 hover:bg-[#c9a84c] hover:text-[#0c0b09] transition-all duration-300"
+          >
+            {memberLink.label}
+          </a>
         </nav>
 
         {/* Hamburger */}
@@ -73,7 +81,7 @@ export default function Header() {
       {/* Mobile menu */}
       <div
         className={`md:hidden bg-[#0c0b09]/98 border-t border-[#c9a84c]/10 overflow-hidden transition-all duration-300 ${
-          menuOpen ? "max-h-64" : "max-h-0"
+          menuOpen ? "max-h-80" : "max-h-0"
         }`}
       >
         <nav className="flex flex-col">
@@ -87,6 +95,13 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <a
+            href={memberLink.href}
+            className="px-6 py-4 text-[#c9a84c] text-sm tracking-widest border-b border-[#c9a84c]/5 transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            {memberLink.label}
+          </a>
         </nav>
       </div>
     </header>
